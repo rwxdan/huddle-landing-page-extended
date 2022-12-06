@@ -248,9 +248,9 @@
           border-radius: 50%;
           text-align: center;
           transition: 200ms ease;
+          color: transparent;
           &:hover {
             border-color: $primary-clr-600;
-            color: $primary-clr-600;
 
             i.fa-brands {
               color: $primary-clr-600;

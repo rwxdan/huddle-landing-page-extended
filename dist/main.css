@@ -443,10 +443,10 @@ a {
   border-radius: 50%;
   text-align: center;
   transition: 200ms ease;
+  color: transparent;
 }
 .page__primary-footer__container__sm__item a:hover {
   border-color: hsl(322deg, 100%, 66%);
-  color: hsl(322deg, 100%, 66%);
 }
 .page__primary-footer__container__sm__item a:hover i.fa-brands {
   color: hsl(322deg, 100%, 66%);
