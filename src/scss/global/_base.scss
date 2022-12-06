@@ -1,0 +1,61 @@
+$primary-clr-600: hsl(322, 100%, 66%);
+$neutral-clr-400: hsl(0, 0%, 100%);
+$neutral-clr-500: hsl(193, 100%, 96%);
+$neutral-clr-600: hsl(208, 11%, 55%);
+$neutral-clr-650: hsl(192, 100%, 9%, 0.1);
+$neutral-clr-800: hsl(192, 100%, 9%);
+$ff-fallback: "Comic Sans MS", "Comic Sans", sans-serif;
+$max-width: 80em;
+
+h1,
+h2,
+h3 {
+  font-family: "Poppins", $ff-fallback;
+}
+
+li,
+p,
+a,
+footer {
+  font-family: "Open Sans", $ff-fallback;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fs-xxs {
+  font-size: 0.875rem;
+}
+
+.fs-xs {
+  font-size: clamp(0.75rem, 1.5vmax, 1rem);
+}
+
+.fs-s {
+  font-size: clamp(1rem, 1.125vmax, 1.125rem);
+}
+
+.fs-m {
+  font-size: clamp(1.5rem, 1.7vmax, 1.75rem);
+}
+
+.fs-ml {
+  font-size: clamp(1.5rem, 2.2vmax, 2.125rem);
+}
+
+.fs-l {
+  font-size: clamp(2rem, 2.5vmax, 2.5rem);
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-700 {
+  font-weight: 700;
+}

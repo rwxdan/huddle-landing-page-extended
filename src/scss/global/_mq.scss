@@ -1,0 +1,87 @@
+@media screen and (max-width: 40em) {
+  .page__hero {
+    overflow-y: hidden;
+    &__container {
+      grid-template-columns: 1fr;
+      text-align: center;
+      gap: 3.5em;
+      &__cta {
+        margin-inline: auto;
+      }
+
+      :first-child,
+      img {
+        animation: bottom-to-top 500ms ease-in-out;
+      }
+    }
+    &__header {
+      a {
+        max-width: 40%;
+      }
+
+      &__cta {
+        padding: 0.5em 2.5em;
+      }
+    }
+  }
+
+  .page__overview {
+    margin-block-end: 15em;
+  }
+  .page__overview__container {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 4em;
+    padding: 2em;
+    &:nth-child(2) {
+      flex-direction: column-reverse;
+      gap: 4em;
+    }
+    div {
+      padding-left: 0;
+    }
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .page__sl-container {
+    margin-inline: 1.5em;
+    padding: 3em 1.875em;
+    text-align: center;
+    h3 {
+      font-size: 1.125rem;
+    }
+
+    &__cta {
+      font-size: 0.75rem;
+    }
+  }
+
+  .page__primary-footer {
+    padding-block-start: 5.5em;
+
+    &__container__logo {
+      max-width: 40%;
+    }
+    div {
+      flex-direction: column;
+      gap: 2em;
+    }
+
+    &__container__details__item {
+      font-size: 1rem;
+      &::before {
+        top: 0.75em;
+      }
+    }
+
+    &__container__sm {
+      margin-inline: auto;
+    }
+  }
+
+  .page__copy__footer div {
+    text-align: center;
+  }
+}
