@@ -100,7 +100,7 @@
     box-shadow: 0 0 0.75em $neutral-clr-650;
     border-radius: 1em;
     align-items: center;
-    padding: 3.75em 2em;
+    padding: 3em 2em;
     gap: 10%;
     div {
       padding-left: 7.5%;
@@ -266,6 +266,7 @@
   background-color: $neutral-clr-800;
   color: $neutral-clr-500;
   padding: 3em;
+  border: 0;
   div {
     max-width: 80rem;
     margin-inline: auto;

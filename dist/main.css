@@ -308,7 +308,7 @@ a {
   box-shadow: 0 0 0.75em hsla(192deg, 100%, 9%, 0.1);
   border-radius: 1em;
   align-items: center;
-  padding: 3.75em 2em;
+  padding: 3em 2em;
   gap: 10%;
 }
 .page__overview__container div {
@@ -456,6 +456,7 @@ a {
   background-color: hsl(192deg, 100%, 9%);
   color: hsl(193deg, 100%, 96%);
   padding: 3em;
+  border: 0;
 }
 .page__copy__footer div {
   max-width: 80rem;
